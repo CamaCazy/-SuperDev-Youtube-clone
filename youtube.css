@@ -4,13 +4,13 @@
 }
 
 .search-bar{
-     
+     display: block;
 }
 
 .video-title{
-    width: 300px;
+   margin-top: 0;
 }
-
+ 
 .video-author{
 
 }
@@ -22,4 +22,27 @@
 .video-preview{
     display: inline-block;
     width: 300px;
+    vertical-align: top;
+    margin-right: 15px;
+   
+}
+
+.channel-picture{
+    display: inline;
+    width: 50px;
+    vertical-align: top;
+}
+
+.video-info{
+    display: inline-block;
+    width: 200px;
+}
+
+.profile-picture{
+border-radius: 50px;
+width:40px;
+}
+
+.thumbnail-row {
+    margin-bottom:10px;
 }
